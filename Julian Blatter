@@ -1,0 +1,16 @@
+products = ['sofas', 'convertible sofas', 'love seats', 'recliners', 'sofa beds']
+
+# Create an empty list
+keywords_list = ...
+
+# Loop through products
+for ...
+    # Loop through words
+    for ...
+        # Append combinations
+        keywords_list.append([product, product + ' ' + word])
+        keywords_list.append([..., ... + ' ' + ...])
+        
+# Inspect keyword list
+from pprint import pprint
+pprint(keywords_list)
